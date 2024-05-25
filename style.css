@@ -239,3 +239,25 @@ span {
     font-size: 1.4rem;
   }
 }
+.services h2{
+  margin-bottom: 5rem;
+}
+
+.services-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services-container .services-box{
+  flex: 1 1 30rem;
+  background: var(--snd-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .2rem solid var(--bg-color);
+  
+}
+
