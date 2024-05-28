@@ -202,14 +202,14 @@ span {
 }
 
 /* Responsive design */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .home {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
   }
 
   .home-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .text-content {
@@ -238,7 +238,7 @@ span {
   .btn {
     font-size: 1.4rem;
   }
-} */
+}
 .services h2{
   margin-bottom: 5rem;
 }
@@ -438,7 +438,6 @@ span {
   }
 
   .home{
-
     flex-direction: column;
   }
 
@@ -454,8 +453,8 @@ span {
     order:2;
   }
   .home-img img{
-    width: 90vw;
-    margin-top: 4rem;
+    /* width: 90vw;
+    margin-top: 4rem; */
   }
 
   .about{
