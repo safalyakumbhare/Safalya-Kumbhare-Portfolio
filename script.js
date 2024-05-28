@@ -23,23 +23,33 @@ window.onscroll = () => {
           .querySelector("header nav a[href*=" + id + "]")
           .classList.add("active");
       });
-    };
+    }
   });
   let header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 100);
 
   menuIcon.classList.remove("fa-xmark");
-  navbar.classList.remove('active');
+  navbar.classList.remove("active");
 };
 
-
-ScrollReveal({ 
-    distance:'80px',
-    duration:2000,
-    delay:200,
+ScrollReveal({
+  distance: "80px",
+  duration: 2000,
+  delay: 200,
 });
 
-ScrollReveal().reveal('.home-content,heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img,.services-container,.portfolio-box,.contact form', { origin: 'button' });
-ScrollReveal().reveal('.home-contact h1', { origin: 'left' });
-ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
+ScrollReveal().reveal(".home-content,heading", { origin: "top" });
+ScrollReveal().reveal(
+  ".home-img,.services-container,.portfolio-box,.contact form",
+  { origin: "button" }
+);
+ScrollReveal().reveal(".home-contact h1,.about-img", { origin: "left" });
+ScrollReveal().reveal(".home-contact p, .about-content", { origin: "right" });
+
+const type = new Typed(".multiple-text", {
+  strings: ["Frontend Developer", "Backend Developer", "AI Enthusiast"],
+  typeSpeed: 70,
+  backSpeed: 70,
+  backDelay: 1000,
+  loop: true,
+});
