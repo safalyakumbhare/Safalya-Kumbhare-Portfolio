@@ -47,7 +47,7 @@ ScrollReveal().reveal(".home-contact h1,.about-img", { origin: "left" });
 ScrollReveal().reveal(".home-contact p, .about-content", { origin: "right" });
 
 const type = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Backend Developer", "AI Enthusiast"],
+  strings: ["Frontend Developer","Bootstrap 5","JS in Jquery Framwork", "Backend Developer With in PHP", "AI Enthusiast"],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
